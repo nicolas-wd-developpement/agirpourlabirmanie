@@ -1,0 +1,71 @@
+body {
+    background: #008cff;
+}
+
+form {
+    display: block;
+
+    max-width: 50%;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 50px;
+    margin: auto;
+}
+
+button {
+    display: block;
+    background-color: rgb(60, 255, 0);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin:auto;
+}
+legend {
+    font-style: italic;
+}
+
+.styled_box {
+    border-radius: 5px;
+    margin: 10px;
+}
+
+fieldset {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form > h2 {
+    margin-top: 10px;.
+    margin-bottom: 10px;
+    color: violet;
+    text-align: center;
+}
+
+.assist {
+    font-size: 8px;
+}
+
+form label {
+    display: block;
+}
+
+label.inline-label {
+    display: inline-block;
+}
+
+form input, form select, form textarea {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+}
+form input[type="radio"],
+form input[type="checkbox"],
+form input[type="submit"] {
+    width: auto;
+}
+
+

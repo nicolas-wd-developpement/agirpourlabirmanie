@@ -4,3 +4,4 @@ css-files/bootstrap.min.css
 node_modules/
 css-files/node_modules/@popperjs/core/lib/modifiers/
 css-files/node_modules/@popperjs/core/lib/dom-utils/getNodeName.js.flow
+webfonts/
