@@ -7,7 +7,7 @@
     <link href="css-files/bootstrap.min.css" rel="stylesheet">
     <link href="css-files/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <!-- Fontawsom install!-->
+    <!-- Font-awsome install!-->
     <link href="css-files/all.min.css" rel="stylesheet">
     <title>Agir pour la birmanie</title>
 </head>
@@ -54,13 +54,13 @@
                 </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active mg-fluid">
-                    <img src="images/Birmanie-enfants-qui-marchent.jpg" class="d-block w-100" alt="...">
+                    <img src="images/Birmanie-enfants-qui-marchent.jpg" class="d-block w-100 img-thumbnail rounded" alt="Photo enfants qui marchent birmanie">
                   </div>
                   <div class="carousel-item mg-fluid">
-                    <img src="images/birmanie-moine-enfant.jpg" class="d-block w-100" alt="...">
+                    <img src="images/birmanie-moine-enfant.jpg" class="d-block w-100 img-thumbnail rounded" alt="Enfant moine birmanie">
                   </div>
                   <div class="carousel-item mg-fluid ">
-                    <img src="images/Temple-bouddhiste-birmanie.jpg" class="d-block w-100" alt="...">
+                    <img src="images/temple-bouddhiste-birmanie.jpg" class="d-block w-100 img-thumbnail rounded" alt="Photo temple bouddhiste birmanie">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
@@ -73,7 +73,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-sm-12 col-lg-6">
+            <div class="col-sm-12 col-lg-6 align-self-center">
                             <!-- Bootstrap card-->
               <div class="card text-center mgt-1">
                 <div class="card-header  bg-primary">
@@ -111,48 +111,62 @@
            </div>
           </article>
         </div>
-
-
- 
       </section>
-  </main>
 
-  <footer class="bg-secondary">
-    <div class="container bg-secondary text-white">
+    <div class="container bg-light text-white">
       <!-- Microdata tagging added by Google's Structured Data Tagging Helper -->
       <div itemscope itemtype="http://schema.org/LocalBusiness" class="row">
-        <div class="col-sm-12 col-lg-6">
-          <h3 class="text-center"><i class="fas fa-map-marker-alt social-icon"></i>Adresse</h3>
-          <ul class="text-decoration-none"> 
-            <li itemprop="name" class="important">Agir pour la Birmanie</li>
-            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-              <li itemprop="streetAddress">1 Rue du commerce</li>
-              <li> 
-                <span itemprop="postalCode">94000</span> 
-                <span itemprop="addressLocality">Paris</span>
-              </li>
-              <li itemprop="addressCountry">France</li>
-            </span>
-          </ul>
-        </div>
-        
-        <div class="col-sm-12 col-lg-6">
-          <h3 class="text-center"><i class="fas fa-address-book social-icon"></i>Contact</h3>
-          <ul class="text-decoration-none"></ul>
-            <li><i class="fas fa-phone-volume social-icon"></i><a href="tel:0601020304">
-<span itemprop="telephone">0601020304</span></a></li>
-            <li><i class="fas fa-envelope social-icon"></i><a href="mailto:contact@notreassociation.fr">
-<span itemprop="email">contact@notreassociation.fr</span></a></li>
-          
+        <div class="col-sm-12 col-lg-6 align-self-center">
+           <!-- Bootstrap Card with text -->
+          <div class="card text-white bg-primary mb-3">
+            <div class="card-header">
+              <h3 class="text-center"><i class="fas fa-map-marker-alt social-icon"></i>Adresse</h3>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <li itemprop="name" class="important">Agir pour la Birmanie</li>
+              </h5>
+              <p class="card-text">
+                <ul class="text-decoration-none"> 
+                  <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <li itemprop="streetAddress">1 Rue du commerce</li>
+                    <li> 
+                      <span itemprop="postalCode">94000</span> 
+                      <span itemprop="addressLocality">Paris</span>
+                    </li>
+                    <li itemprop="addressCountry">France</li>
+                  </span>
+                </ul>
+              </p>
+            </div>
+          </div>
         </div>
 
-
-        <div class="col-12">
+        <div class="col-sm-12 col-lg-6">
+          <div class="card text-white bg-dark mb-3">
+            <div class="card-header">
+              <h3 class="text-center"><i class="fas fa-address-book social-icon"></i>Contact</h3>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Contactez-nous</h5>
+              <p class="card-text">
+                <ul class="text-decoration-none"></ul>
+                <li><i class="fas fa-phone-volume social-icon"></i><a href="tel:0601020304">
+                <span itemprop="telephone">0601020304</span></a></li>
+                <li><i class="fas fa-envelope social-icon"></i><a href="mailto:contact@notreassociation.fr">
+                    <span itemprop="email">contact@notreassociation.fr</span></a></li>
+              </p>
+            </div>
+          </div>
+        </div>
+  </main>
+  <footer class="bg-primary">
+        <div class="col bg-primary">
            <!--  Bootstrap breadscrum -->
-           <nav style="--bs-breadcrumb-divider: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E");" aria-label="breadcrumb">
+          <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="index.html" class="text-light">Agir pour la Birmanie</a></li>
-              <li class="breadcrumb-item text-ligh" aria-current="page">Notre association</li>
+              <li class="breadcrumb-item"><a href="#">Agir pour la Birmanie</a></li>
+              <li class="breadcrumb-item" aria-current="page">L'association</li>
             </ol>
           </nav>
         </div>
