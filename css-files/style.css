@@ -5,10 +5,8 @@
 
 form {
     display: block;
-    max-width: 50%;
     border-radius: 5px;
     background-color: white;
-    margin: auto;
 }
 
 li, ul {
@@ -54,4 +52,8 @@ p::first-letter {
 
 footer {
     height: 50px;
+}
+
+h4 {
+  padding: 20px;
 }

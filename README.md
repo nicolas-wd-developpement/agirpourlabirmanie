@@ -9,3 +9,4 @@ Add button in top header only shown on small devices
 Add meta viewport for mobile
 Add meta information
 Publish site on http://82.165.243.11/index.html
+Modify header bug fix
